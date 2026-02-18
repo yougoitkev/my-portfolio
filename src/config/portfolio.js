@@ -5,6 +5,14 @@ export const portfolioData = {
   email: "mekevinsamuel@gmail.com",
   links: [
     {
+      title: "Thinking About This Feeling",
+      subtitle: "Produced by Kevin Samuel",
+      url: "https://open.spotify.com/track/3fJGIfvXYZQPMZoEZCn9D5?si=b208c953bb7f4c14",
+      icon: "Music",
+      image: "https://i.scdn.co/image/ab67616d00001e026dc707d1ac233dc6038c9bc4",
+      type: "spotify"
+    },
+    {
       title: "Man After Your Own Heart",
       subtitle: "Produced by Kevin Samuel",
       url: "https://open.spotify.com/track/6YqYwr7zuudotfvQVORzGU",
