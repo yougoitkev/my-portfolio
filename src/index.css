@@ -138,3 +138,85 @@ a {
   color: white;
   font-weight: 600;
 }
+
+/* Vinyl Effect Styles */
+.vinyl-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vinyl-record {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 85%;
+  height: 85%;
+  margin-top: -42.5%;
+  margin-left: -42.5%;
+  border-radius: 50%;
+  background: radial-gradient(circle at center,
+      #111 0%,
+      #111 10%,
+      #222 10.5%,
+      #222 15%,
+      #111 15.5%,
+      #111 20%,
+      #222 20.5%,
+      #222 25%,
+      #111 25.5%,
+      #111 30%,
+      #222 30.5%,
+      #222 35%,
+      #111 35.5%,
+      #111 40%,
+      #222 40.5%,
+      #222 45%,
+      #111 45.5%,
+      #111 50%);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8), inset 0 0 10px rgba(255, 255, 255, 0.1);
+  z-index: 1;
+}
+
+/* Texture overlay for the vinyl */
+.vinyl-record::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: repeating-radial-gradient(circle at center,
+      transparent 0,
+      transparent 2px,
+      rgba(255, 255, 255, 0.03) 3px,
+      rgba(255, 255, 255, 0.03) 4px);
+  pointer-events: none;
+}
+
+.vinyl-cover {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+}
+
+.spotify-tile {
+  overflow: visible !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.spotify-tile:hover {
+  box-shadow: none !important;
+  transform: none !important;
+}
