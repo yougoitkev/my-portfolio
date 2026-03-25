@@ -29,6 +29,14 @@ export const portfolioData = {
       type: "spotify"
     },
     {
+      title: "Love You the Christ Way",
+      subtitle: "Produced by Kevin Samuel",
+      url: "https://open.spotify.com/album/2EKKrv8VUVrCepPA4qZS3L",
+      icon: "Music",
+      image: "https://i.scdn.co/image/ab67616d0000b27387fa3e87c847e15a4c7ea5f6",
+      type: "spotify"
+    },
+    {
       title: "YouTube Portfolio",
       url: "https://www.youtube.com/@musicbykevin15",
       icon: "Youtube",
@@ -52,6 +60,16 @@ export const portfolioData = {
       type: "youtube",
       id: "k6Rp0CF-Y4Q",
       title: "Production Showcase (Short)"
+    },
+    {
+      type: "youtube",
+      id: "eVqWT_Pf7Kg",
+      title: "Stay but PUNK ROCK"
+    },
+    {
+      type: "youtube",
+      id: "AJmdXIj_S1Q",
+      title: "Part 2 #shorts #challenge"
     }
   ],
   socials: [
