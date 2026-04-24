@@ -53,6 +53,18 @@ export const portfolioData = {
   media: [
     {
       type: "youtube",
+      id: "H6i5ExXmnHc",
+      title: "New Music Video — Produced, Mixed & Mastered",
+      subtitle: "Latest Release"
+    },
+    {
+      type: "youtube",
+      id: "Y8v6HM_boDw",
+      title: "Mixed, Mastered & Programmed Percussions",
+      subtitle: "Latest Release"
+    },
+    {
+      type: "youtube",
       id: "L4-4rgj91d8",
       title: "Featured Work"
     },
