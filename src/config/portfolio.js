@@ -5,6 +5,22 @@ export const portfolioData = {
   email: "mekevinsamuel@gmail.com",
   links: [
     {
+      title: "About Yesterday",
+      subtitle: "Produced by Kevin Samuel",
+      url: "https://open.spotify.com/track/6HzP4IvIxQKKMImC32A5up?si=202178063fd240b2",
+      icon: "Music",
+      image: "https://i.scdn.co/image/ab67616d0000b2738f7cb906570e037df1d5f18d",
+      type: "spotify"
+    },
+    {
+      title: "Hosanna in the Highest",
+      subtitle: "Produced by Kevin Samuel",
+      url: "https://open.spotify.com/track/10UeLvYHVL6XqQav5b2Plh?si=32b351f35ddd4a39",
+      icon: "Music",
+      image: "https://i.scdn.co/image/ab67616d0000b273171b66e5c5491a30a7625981",
+      type: "spotify"
+    },
+    {
       title: "Thinking About This Feeling",
       subtitle: "Produced by Kevin Samuel",
       url: "https://open.spotify.com/track/3fJGIfvXYZQPMZoEZCn9D5?si=b208c953bb7f4c14",
